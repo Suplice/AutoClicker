@@ -14,3 +14,4 @@ C:\Users\Mateusz\Desktop\git repos\AutoClicker\AutoClicker\AutoClicker\obj\Debug
 C:\Users\Mateusz\Desktop\git repos\AutoClicker\AutoClicker\AutoClicker\obj\Debug\net8.0-windows\AutoClicker.pdb
 C:\Users\Mateusz\Desktop\git repos\AutoClicker\AutoClicker\AutoClicker\obj\Debug\net8.0-windows\AutoClicker.genruntimeconfig.cache
 C:\Users\Mateusz\Desktop\git repos\AutoClicker\AutoClicker\AutoClicker\obj\Debug\net8.0-windows\ref\AutoClicker.dll
+C:\Users\Mateusz\Desktop\git repos\AutoClicker\AutoClicker\AutoClicker\obj\Debug\net8.0-windows\AutoClicker.sourcelink.json

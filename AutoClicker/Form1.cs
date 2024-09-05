@@ -27,6 +27,7 @@ namespace AutoClicker
 
         private const int HOTKEY_ID_START = 1;
         private const int HOTKEY_ID_END = 2;
+        private const int HOTKEY_ID_TOGGLE_ON_OFF = 3;
 
         bool isClicking = false;
 
@@ -38,6 +39,7 @@ namespace AutoClicker
 
             RegisterHotKey(this.Handle, HOTKEY_ID_START, MOD_NONE, (int)Keys.F3);
             RegisterHotKey(this.Handle, HOTKEY_ID_END, MOD_NONE, (int)Keys.F4);
+            RegisterHotKey(this.Handle, HOTKEY_ID_TOGGLE_ON_OFF, MOD_NONE, (int)Keys.F6);
         }
 
         private void mouseClick()
@@ -115,6 +117,17 @@ namespace AutoClicker
                 {
                     StopAutoClicker();
                 }
+                else if (id == HOTKEY_ID_TOGGLE_ON_OFF) {
+
+                    if (isClicking) {
+                        StopAutoClicker();
+                    }
+                    else
+                    {
+                        isClicking = false;
+                        StartAutoClicker();
+                    }
+                }
             }
             base.WndProc(ref m);
         }
@@ -124,6 +137,7 @@ namespace AutoClicker
         {
             UnregisterHotKey(this.Handle, HOTKEY_ID_START);
             UnregisterHotKey(this.Handle, HOTKEY_ID_END);
+            UnregisterHotKey(this.Handle, HOTKEY_ID_TOGGLE_ON_OFF);
 
 
             base.OnFormClosing(e);

@@ -5,7 +5,7 @@ using System.Windows.Forms;
 namespace AutoClicker
 {
 
-    public partial class Form1 : Form
+    public partial class MouseAutoClickerForm : Form
     {
         [DllImport("user32.dll", SetLastError = true)]
         static extern void mouse_event(uint dwFlags, uint dx, uint dy, uint dwData, int dwExtraInfo);
@@ -33,10 +33,16 @@ namespace AutoClicker
 
         private Point mouseClickPosition = Point.Empty;
 
-        public Form1()
+        public MouseAutoClickerForm()
         {
             InitializeComponent();
 
+            RegisterHotKeys();
+        }
+
+        private void RegisterHotKeys()
+        {
+            // Register hotkeys for this form
             RegisterHotKey(this.Handle, HOTKEY_ID_START, MOD_NONE, (int)Keys.F3);
             RegisterHotKey(this.Handle, HOTKEY_ID_END, MOD_NONE, (int)Keys.F4);
             RegisterHotKey(this.Handle, HOTKEY_ID_TOGGLE_ON_OFF, MOD_NONE, (int)Keys.F6);
@@ -44,7 +50,7 @@ namespace AutoClicker
 
         private void mouseClick()
         {
-            if(mouseClickPosition != Point.Empty)
+            if (mouseClickPosition != Point.Empty)
             {
                 SetCursorPos(mouseClickPosition.X, mouseClickPosition.Y);
             }
@@ -53,10 +59,6 @@ namespace AutoClicker
             mouse_event(MOUSEEVENTF_LEFTUP, 0, 0, 0, 0);
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
 
         private void StartAutoClickButton_Click(object sender, EventArgs e)
         {
@@ -117,9 +119,11 @@ namespace AutoClicker
                 {
                     StopAutoClicker();
                 }
-                else if (id == HOTKEY_ID_TOGGLE_ON_OFF) {
+                else if (id == HOTKEY_ID_TOGGLE_ON_OFF)
+                {
 
-                    if (isClicking) {
+                    if (isClicking)
+                    {
                         StopAutoClicker();
                     }
                     else
@@ -138,8 +142,6 @@ namespace AutoClicker
             UnregisterHotKey(this.Handle, HOTKEY_ID_START);
             UnregisterHotKey(this.Handle, HOTKEY_ID_END);
             UnregisterHotKey(this.Handle, HOTKEY_ID_TOGGLE_ON_OFF);
-
-
             base.OnFormClosing(e);
         }
 
@@ -159,6 +161,15 @@ namespace AutoClicker
             SetMousePositionButton.Text = "Select location";
         }
 
+        private void ReturnButton_Click(object sender, EventArgs e)
+        {
+            var mainForm = Application.OpenForms.OfType<MainForm>().FirstOrDefault();
+            if (mainForm != null)
+            {
+                mainForm.Show();
+            }
+            this.Close();
 
+        }
     }
 }

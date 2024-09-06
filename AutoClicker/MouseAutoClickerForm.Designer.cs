@@ -1,6 +1,6 @@
 ﻿namespace AutoClicker
 {
-    partial class Form1
+    partial class MouseAutoClickerForm
     {
         /// <summary>
         ///  Required designer variable.
@@ -37,11 +37,12 @@
             StatusLabel = new Label();
             MessageBox = new Label();
             SetMousePositionButton = new Button();
+            ReturnButton = new Button();
             SuspendLayout();
             // 
             // StartAutoClickButton
             // 
-            StartAutoClickButton.Location = new Point(26, 147);
+            StartAutoClickButton.Location = new Point(21, 147);
             StartAutoClickButton.Name = "StartAutoClickButton";
             StartAutoClickButton.Size = new Size(148, 41);
             StartAutoClickButton.TabIndex = 0;
@@ -106,11 +107,22 @@
             SetMousePositionButton.UseVisualStyleBackColor = true;
             SetMousePositionButton.Click += SetMousePositionButton_Click;
             // 
-            // Form1
+            // ReturnButton
+            // 
+            ReturnButton.Location = new Point(175, 12);
+            ReturnButton.Name = "ReturnButton";
+            ReturnButton.Size = new Size(75, 23);
+            ReturnButton.TabIndex = 7;
+            ReturnButton.Text = " <- Return";
+            ReturnButton.UseVisualStyleBackColor = true;
+            ReturnButton.Click += ReturnButton_Click;
+            // 
+            // MouseAutoClickerForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(437, 226);
+            Controls.Add(ReturnButton);
             Controls.Add(SetMousePositionButton);
             Controls.Add(MessageBox);
             Controls.Add(StatusLabel);
@@ -118,9 +130,8 @@
             Controls.Add(IntervalTimeStamp);
             Controls.Add(StopButton);
             Controls.Add(StartAutoClickButton);
-            Name = "Form1";
+            Name = "MouseAutoClickerForm";
             Text = "Form1";
-            Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -135,5 +146,6 @@
         private Label StatusLabel;
         private Label MessageBox;
         private Button SetMousePositionButton;
+        private Button ReturnButton;
     }
 }

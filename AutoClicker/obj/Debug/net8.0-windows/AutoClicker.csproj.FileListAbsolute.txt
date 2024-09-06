@@ -3,7 +3,6 @@ C:\Users\Mateusz\Desktop\git repos\AutoClicker\AutoClicker\AutoClicker\bin\Debug
 C:\Users\Mateusz\Desktop\git repos\AutoClicker\AutoClicker\AutoClicker\bin\Debug\net8.0-windows\AutoClicker.runtimeconfig.json
 C:\Users\Mateusz\Desktop\git repos\AutoClicker\AutoClicker\AutoClicker\bin\Debug\net8.0-windows\AutoClicker.dll
 C:\Users\Mateusz\Desktop\git repos\AutoClicker\AutoClicker\AutoClicker\bin\Debug\net8.0-windows\AutoClicker.pdb
-C:\Users\Mateusz\Desktop\git repos\AutoClicker\AutoClicker\AutoClicker\obj\Debug\net8.0-windows\AutoClicker.Form1.resources
 C:\Users\Mateusz\Desktop\git repos\AutoClicker\AutoClicker\AutoClicker\obj\Debug\net8.0-windows\AutoClicker.csproj.GenerateResource.cache
 C:\Users\Mateusz\Desktop\git repos\AutoClicker\AutoClicker\AutoClicker\obj\Debug\net8.0-windows\AutoClicker.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Mateusz\Desktop\git repos\AutoClicker\AutoClicker\AutoClicker\obj\Debug\net8.0-windows\AutoClicker.AssemblyInfoInputs.cache
@@ -15,3 +14,6 @@ C:\Users\Mateusz\Desktop\git repos\AutoClicker\AutoClicker\AutoClicker\obj\Debug
 C:\Users\Mateusz\Desktop\git repos\AutoClicker\AutoClicker\AutoClicker\obj\Debug\net8.0-windows\AutoClicker.genruntimeconfig.cache
 C:\Users\Mateusz\Desktop\git repos\AutoClicker\AutoClicker\AutoClicker\obj\Debug\net8.0-windows\ref\AutoClicker.dll
 C:\Users\Mateusz\Desktop\git repos\AutoClicker\AutoClicker\AutoClicker\obj\Debug\net8.0-windows\AutoClicker.sourcelink.json
+C:\Users\Mateusz\Desktop\git repos\AutoClicker\AutoClicker\AutoClicker\obj\Debug\net8.0-windows\AutoClicker.KeyboardAutoClickerForm.resources
+C:\Users\Mateusz\Desktop\git repos\AutoClicker\AutoClicker\AutoClicker\obj\Debug\net8.0-windows\AutoClicker.MouseAutoClickerForm.resources
+C:\Users\Mateusz\Desktop\git repos\AutoClicker\AutoClicker\AutoClicker\obj\Debug\net8.0-windows\AutoClicker.MainForm.resources

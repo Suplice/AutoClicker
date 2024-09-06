@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Mateusz\\Desktop\\git repos\\AutoClicker\\AutoClicker\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9CF3F677-667D-487E-B426-06AEADA8E0C7}|AutoClicker\\AutoClicker.csproj|c:\\users\\mateusz\\desktop\\git repos\\autoclicker\\autoclicker\\autoclicker\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CF3F677-667D-487E-B426-06AEADA8E0C7}|AutoClicker\\AutoClicker.csproj|solutionrelative:autoclicker\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9CF3F677-667D-487E-B426-06AEADA8E0C7}|AutoClicker\\AutoClicker.csproj|c:\\users\\mateusz\\desktop\\git repos\\autoclicker\\autoclicker\\autoclicker\\keyboardautoclickerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CF3F677-667D-487E-B426-06AEADA8E0C7}|AutoClicker\\AutoClicker.csproj|solutionrelative:autoclicker\\keyboardautoclickerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9CF3F677-667D-487E-B426-06AEADA8E0C7}|AutoClicker\\AutoClicker.csproj|C:\\Users\\Mateusz\\Desktop\\git repos\\AutoClicker\\AutoClicker\\autoclicker\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9CF3F677-667D-487E-B426-06AEADA8E0C7}|AutoClicker\\AutoClicker.csproj|solutionrelative:autoclicker\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{9CF3F677-667D-487E-B426-06AEADA8E0C7}|AutoClicker\\AutoClicker.csproj|c:\\users\\mateusz\\desktop\\git repos\\autoclicker\\autoclicker\\autoclicker\\keyboardautoclickerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9CF3F677-667D-487E-B426-06AEADA8E0C7}|AutoClicker\\AutoClicker.csproj|solutionrelative:autoclicker\\keyboardautoclickerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9CF3F677-667D-487E-B426-06AEADA8E0C7}|AutoClicker\\AutoClicker.csproj|c:\\users\\mateusz\\desktop\\git repos\\autoclicker\\autoclicker\\autoclicker\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CF3F677-667D-487E-B426-06AEADA8E0C7}|AutoClicker\\AutoClicker.csproj|solutionrelative:autoclicker\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9CF3F677-667D-487E-B426-06AEADA8E0C7}|AutoClicker\\AutoClicker.csproj|c:\\users\\mateusz\\desktop\\git repos\\autoclicker\\autoclicker\\autoclicker\\keyboardautoclickerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CF3F677-667D-487E-B426-06AEADA8E0C7}|AutoClicker\\AutoClicker.csproj|solutionrelative:autoclicker\\keyboardautoclickerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CF3F677-667D-487E-B426-06AEADA8E0C7}|AutoClicker\\AutoClicker.csproj|c:\\users\\mateusz\\desktop\\git repos\\autoclicker\\autoclicker\\autoclicker\\mouseautoclickerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9CF3F677-667D-487E-B426-06AEADA8E0C7}|AutoClicker\\AutoClicker.csproj|solutionrelative:autoclicker\\mouseautoclickerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CF3F677-667D-487E-B426-06AEADA8E0C7}|AutoClicker\\AutoClicker.csproj|c:\\users\\mateusz\\desktop\\git repos\\autoclicker\\autoclicker\\autoclicker\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CF3F677-667D-487E-B426-06AEADA8E0C7}|AutoClicker\\AutoClicker.csproj|solutionrelative:autoclicker\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,44 +29,70 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "DockedWidth": 141,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Mateusz\\Desktop\\git repos\\AutoClicker\\AutoClicker\\AutoClicker\\Form1.cs",
-              "RelativeDocumentMoniker": "AutoClicker\\Form1.cs",
-              "ToolTip": "C:\\Users\\Mateusz\\Desktop\\git repos\\AutoClicker\\AutoClicker\\AutoClicker\\Form1.cs [Design]",
-              "RelativeToolTip": "AutoClicker\\Form1.cs [Design]",
+              "DocumentIndex": 2,
+              "Title": "KeyboardAutoClickerForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Mateusz\\Desktop\\git repos\\AutoClicker\\AutoClicker\\AutoClicker\\KeyboardAutoClickerForm.Designer.cs",
+              "RelativeDocumentMoniker": "AutoClicker\\KeyboardAutoClickerForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Mateusz\\Desktop\\git repos\\AutoClicker\\AutoClicker\\AutoClicker\\KeyboardAutoClickerForm.Designer.cs",
+              "RelativeToolTip": "AutoClicker\\KeyboardAutoClickerForm.Designer.cs",
+              "ViewState": "AQIAAGUAAAAAAAAAAAApwHwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T18:05:27.659Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-09-06T15:31:44.483Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Mateusz\\Desktop\\git repos\\AutoClicker\\AutoClicker\\AutoClicker\\Form1.Designer.cs",
-              "RelativeDocumentMoniker": "AutoClicker\\Form1.Designer.cs",
-              "ToolTip": "C:\\Users\\Mateusz\\Desktop\\git repos\\AutoClicker\\AutoClicker\\AutoClicker\\Form1.Designer.cs",
-              "RelativeToolTip": "AutoClicker\\Form1.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGEAAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "MouseAutoClickerForm.cs [Projekt]",
+              "DocumentMoniker": "C:\\Users\\Mateusz\\Desktop\\git repos\\AutoClicker\\AutoClicker\\AutoClicker\\MouseAutoClickerForm.cs",
+              "RelativeDocumentMoniker": "AutoClicker\\MouseAutoClickerForm.cs",
+              "ToolTip": "C:\\Users\\Mateusz\\Desktop\\git repos\\AutoClicker\\AutoClicker\\AutoClicker\\MouseAutoClickerForm.cs [Projekt]",
+              "RelativeToolTip": "AutoClicker\\MouseAutoClickerForm.cs [Projekt]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T16:53:53.83Z"
+              "WhenOpened": "2024-09-06T15:30:07.98Z",
+              "EditorCaption": " [Projekt]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "KeyboardAutoClickerForm.cs [Projekt]",
+              "DocumentMoniker": "C:\\Users\\Mateusz\\Desktop\\git repos\\AutoClicker\\AutoClicker\\AutoClicker\\KeyboardAutoClickerForm.cs",
+              "RelativeDocumentMoniker": "AutoClicker\\KeyboardAutoClickerForm.cs",
+              "ToolTip": "C:\\Users\\Mateusz\\Desktop\\git repos\\AutoClicker\\AutoClicker\\AutoClicker\\KeyboardAutoClickerForm.cs [Projekt]",
+              "RelativeToolTip": "AutoClicker\\KeyboardAutoClickerForm.cs [Projekt]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T15:27:52.216Z",
+              "EditorCaption": " [Projekt]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Mateusz\\Desktop\\git repos\\AutoClicker\\AutoClicker\\AutoClicker\\Form1.cs",
-              "RelativeDocumentMoniker": "AutoClicker\\Form1.cs",
-              "ToolTip": "C:\\Users\\Mateusz\\Desktop\\git repos\\AutoClicker\\AutoClicker\\AutoClicker\\Form1.cs",
-              "RelativeToolTip": "AutoClicker\\Form1.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAEwCcAAAAMAAAA",
+              "Title": "KeyboardAutoClickerForm.cs",
+              "DocumentMoniker": "C:\\Users\\Mateusz\\Desktop\\git repos\\AutoClicker\\AutoClicker\\AutoClicker\\KeyboardAutoClickerForm.cs",
+              "RelativeDocumentMoniker": "AutoClicker\\KeyboardAutoClickerForm.cs",
+              "ToolTip": "C:\\Users\\Mateusz\\Desktop\\git repos\\AutoClicker\\AutoClicker\\AutoClicker\\KeyboardAutoClickerForm.cs",
+              "RelativeToolTip": "AutoClicker\\KeyboardAutoClickerForm.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAIAwwEoAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T16:49:43.557Z",
+              "WhenOpened": "2024-09-06T15:22:24.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Mateusz\\Desktop\\git repos\\AutoClicker\\AutoClicker\\AutoClicker\\MainForm.Designer.cs",
+              "RelativeDocumentMoniker": "AutoClicker\\MainForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Mateusz\\Desktop\\git repos\\AutoClicker\\AutoClicker\\AutoClicker\\MainForm.Designer.cs",
+              "RelativeToolTip": "AutoClicker\\MainForm.Designer.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAApwCwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T14:03:16.389Z",
               "EditorCaption": ""
             }
           ]
